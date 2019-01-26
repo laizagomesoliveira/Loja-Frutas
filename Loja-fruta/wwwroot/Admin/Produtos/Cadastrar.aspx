@@ -6,6 +6,8 @@
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID ="body">
 
+   Nome da fruta <asp:TextBox runat="server" ID="txtNomefruta" />
+    <asp:Button Text="Cadatrar" runat="server" ID="btnCadastrar" OnClick="btnCadastrar_Click"/>
 
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="footer">
