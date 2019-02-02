@@ -18,5 +18,10 @@ public partial class Admin_Produtos_Cadastrar : System.Web.UI.Page
         Classes.VO.Fruta fruta =  new Classes.VO.Fruta () ;
         fruta.Nome = txtNomefruta.Text;
         Fruta.Cadastrar(fruta,Server.MapPath("/Dados")+"/Frutas.csv");
+        if (true)
+        {
+            
+        }
+        
     }
 }
